@@ -1,7 +1,8 @@
 # 2DEngine
-A 2D Game Engine using SFML.  Design largely from the first half of "SFML Game Design by Example" but with the code heavily revised to be more memory safe and utilize more C++11, 14, and 17 features.
+A 2D Game Engine using SFML now migrated to a public github.  Design largely from the first half of "SFML Game Design by Example" but with the code almost entirely rewritten to be more memory safe and utilize more C++11, 14, and 17 features.
 
-A sample game is included in Sample, using the same resources and levels provided in the aforementioned book.
+A sample game is included in sample, using the same resources and levels provided in the aforementioned book.  Custom maps are simple to create, but as I plan to use a completely different format in the future
+(described below), I have no plans on how to document it.  You may use one of the existing levels and the map loading method in src/Map.cpp to get the gist of it.
 
 Supports Windows and Linux.  SFML 2.5.1 required.  To compile in Linux, use the typical CMake and Make commands.  CMake configuration is not currently setup to support Windows, so it will need to be compiled manually.
 
